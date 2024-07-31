@@ -2391,7 +2391,7 @@ window.__require = (function e(t, n, o) {
                     cc.sequence(cc.scaleTo(0.1, 1.1), cc.scaleTo(0.1, 1))
                   ),
                   this.scheduleOnce(function () {
-                    window.location.href = "http://m.wesane.com/";
+                    // window.location.href = "http://m.wesane.com/";
                   }, 0.15));
               }),
               (t.prototype.GetContentByScore = function (e) {
@@ -4899,7 +4899,7 @@ window.__require = (function e(t, n, o) {
                   (this.gameHttpId = a),
                   cc.log("gameId", a);
                 e.substring(e.lastIndexOf("//") + 4, e.lastIndexOf("com") + 3);
-                this.moreGameUrl = "http://m.wesane.com/";
+                // this.moreGameUrl = "http://m.wesane.com/";
               },
               gameOverShowText: function (e, t) {
                 this.ajaxLoad(
